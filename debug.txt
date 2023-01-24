@@ -1,0 +1,5 @@
+Punto de ruptura en la linea 31 de UsoArrays.java, justo donde está el método generarEstadisticas.
+Pulso f7 para que haga un step into y entre dentro del método.
+Ya dentro de OperacionesArrays, pongo un punto de ruptura en la línea 32 (float count=0) para ver en la pestaña de Variables el valor de i.
+Cuando i vale 6, pongo un punto de ruptura en la línea 46.
+Resultado: Estadística nota tramo <=7 = 10.0%

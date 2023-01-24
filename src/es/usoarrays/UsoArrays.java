@@ -1,4 +1,8 @@
-public class Arrays extends OperacionesArrays {
+package es.usoarrays;
+
+import es.usoarrays.OperacionesArrays;
+
+public class UsoArrays extends OperacionesArrays {
 
     public static final int NUM_ALUMNOS = 40; // Menú -> Refactor -> Introduce -> Constant...
 // Menú -> Refactor -> Introduce -> Constant...

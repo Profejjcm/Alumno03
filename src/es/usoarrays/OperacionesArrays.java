@@ -10,6 +10,8 @@ package es.usoarrays;
  */
 public class OperacionesArrays {
     
+    public static final int NUM_ALUMNOS = 40; // Menú -> Refactor -> Introduce -> Constant...
+    
     public static void mostrarResultados(int minNota, int maxNota, int[] control, int[] practicas, float[] calificaciones, int countAprobados, int countSuspensos) {
         //Método mostrarResultados
         System.out.println("La nota mínima es  : " + minNota);
