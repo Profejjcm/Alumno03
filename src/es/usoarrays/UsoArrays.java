@@ -1,10 +1,12 @@
 public class Arrays {
 
+    public static final int NUM_ALUMNOS = 40; // Menú -> Refactor -> Introduce -> Constant...
+    
     public static void main(String[] args) {
 
-        int[] control = new int[40];
-        int[] practicas = new int[40];
-        float[] calificaciones = new float[40];
+        int[] control = new int[NUM_ALUMNOS];
+        int[] practicas = new int[NUM_ALUMNOS];
+        float[] calificaciones = new float[NUM_ALUMNOS];
         int maxNota = 0;
         int minNota = 0;
         int countAprobados = 0;
@@ -24,7 +26,7 @@ public class Arrays {
         generarEstadisticas(control, calificaciones, estadistica);
 
         //Método generarAprobadosSuspensos
-        for (int i = 0; i < 40; i++) {
+        for (int i = 0; i < NUM_ALUMNOS; i++) {
             if (calificaciones[i] < 5) {
                 countAprobados += 1;
             } else {
@@ -61,7 +63,7 @@ public class Arrays {
                 }
             }
             if (count != 0) {
-                estadistica[i] = ((float) count / 40);
+                estadistica[i] = ((float) count / NUM_ALUMNOS);
             } else {
                 estadistica[i] = 0;
             }
