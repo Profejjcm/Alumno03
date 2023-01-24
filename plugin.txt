@@ -1,0 +1,10 @@
+Tools > Plugins > Downloaded > Add Plugins... > Selecciono el plugin descargado > Siguiente Siguiente... > Pide reiniciar ahora o más tarde.
+Elegí reiniciar ahora.
+
+Para comprobar que estaba instalado volví a Tools > Plugins. Busqué el plugin instalado y estaba. Pego el texto del plugin para demostrarlo.
+
+Version: 1.0 Source: org-lorenzos-emmet-1.4.0.nbm  
+Plugin Description
+Emmet
+Emmet — the essential toolkit for web-developers Basically, most text editors out there allow you to store and re-use commonly used code chunks, called “snippets”. While snippets are a good way to boost your productivity, all implementations have common pitfalls: you have to define the snippet first and you can’t extend them in runtime. Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimised for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too. Installation & usage: https://github.com/emmetio/netbeans#readme Read more about Emmet at: http://emmet.io
+Module installed: Emmet
