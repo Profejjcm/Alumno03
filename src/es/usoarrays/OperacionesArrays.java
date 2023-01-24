@@ -16,9 +16,9 @@ public class OperacionesArrays {
         //Método mostrarResultados
         System.out.println("La nota mínima es  : " + minNota);
         System.out.println("La nota máxima es  : " + maxNota);
-        System.out.println("Array de Notas     :" + Arrays.toString(control));
-        System.out.println("Prácticas          :" + Arrays.toString(practicas));
-        System.out.println("Calificaciones     :" + Arrays.toString(calificaciones));
+        System.out.println("Array de Notas     :" + control.toString());
+        System.out.println("Prácticas          :" + practicas.toString());
+        System.out.println("Calificaciones     :" + calificaciones.toString());
         System.out.println("Número de aprobados: " + countAprobados);
         System.out.println("Número de suspensos: " + countSuspensos);
         //Método mostrarResultados
